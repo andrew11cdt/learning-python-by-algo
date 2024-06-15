@@ -8,10 +8,8 @@
 
 list1 = [[4, 3, 5], [1, 2, 3], [3, 7, 4]]
 list2 = [[1, 3], [9, 3, 5, 7], [8]]
-i = 0
-while i < len(list1):
+for i in range(len(list1)):
     list1[i] += list2[i]
-    i += 1
 print(list1)
 
 #RESULT
